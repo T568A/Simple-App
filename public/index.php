@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-use App\{Db};
+use App\Models\{Db};
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 try {
     var_dump(new Db());
